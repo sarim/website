@@ -10,7 +10,7 @@
     <div class="span10">
 
         <div id="intro" class="sections">
-            <h4>Intorduction</h4>
+            <h3>Intorduction</h3>
             Urban Terrorists Bangladesh, aka UrTBD, is the first international clan for Bangladeshi Urban Terror
             players.
             However, its membership is not limited to the Bangladeshi players only. After playing as a secret group for
@@ -25,7 +25,7 @@
         </div>
 
         <div id="clan_values" class="sections">
-            <h4>Clan Values</h4>
+            <h3>Clan Values</h3>
 
             All UrTBD clan members are bound by these values and are expected to follow these rules in all games they
             play.
@@ -54,7 +54,7 @@
         </div>
 
         <div id="clan_structure" class="sections">
-            <h4>Clan Structure</h4>
+            <h3>Clan Structure</h3>
 
             UrTBD follows a strict internal clan structure for easy administration and management of itself. The
             following
@@ -89,7 +89,7 @@
         <div id="members_teams" class="sections">
             <div class="row">
 
-                <h4>Clan Members</h4>
+                <h3>Clan Members</h3>
 
                 <div class="span2">
                     <strong>Clan Leaders</strong><br/>
@@ -127,13 +127,14 @@
                         <li>Snypst</li>
                     </ul>
                 </div>
+
+                <br/><br/>
             </div>
 
             <div class="row">
-                <h4>Teams</h4>
+                <h3>Teams</h3>
 
                 <strong>Team A</strong><br/>
-
                 <ul>
                     <li>Zed</li>
                     <li>Mehedee</li>
@@ -147,7 +148,7 @@
             </div>
         </div>
         <div id="recruitment" class="sections">
-            <h4>Join Us</h4>
+            <h3>Join Us</h3>
 
             UrTBD has started recruiting members from all around the world. Applying for membership is easy and
             hassle-free!
@@ -171,7 +172,7 @@
 
             What are you waiting for? Get Started! <br/><br/>
 
-            <h4>Request for Membership</h4>
+            <h3>Request for Membership</h3>
 
             To make things simple, we prefer that you send us your request through an email. Compose a mail, provide
             your

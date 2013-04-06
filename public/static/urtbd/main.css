@@ -1,8 +1,14 @@
 body {
     padding-top: 80px;
+    font-size: 16px;
 }
 
 a {
     text-decoration: none;
+}
+
+h3 {
+    border-bottom: 3px dashed;
+    margin-bottom: 20px;
 }
 
