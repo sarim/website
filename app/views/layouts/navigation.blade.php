@@ -1,7 +1,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container-fluid">
-            <a class="brand" href="javascript:void(0)">UrT BD</a>
+            <a class="brand" href="javascript:void(0)">|BD| </a>
 
             <div class="nav-collapse collapse">
                 <ul id="main_nav" class="nav">
