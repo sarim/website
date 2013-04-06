@@ -42,6 +42,8 @@ And add this to your hosts file:
 
 The web server must have write access to everything under `app/storage`. 
 
+    sudo chmod -R 0777 storage
+
 
 ###### That's all, Now you should have a working installation :) 
 
