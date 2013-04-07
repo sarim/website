@@ -3,6 +3,13 @@
 echo "All is well for now, will write deploy code later"
 
 #check if commit has [dp] tag
-git log -1 --format="%s" | grep "\[dp\]" && echo "Hurray deploy it"
+DP=`git log -1 --format="%s" | grep "\[dp\]" && echo "deploy"`
 
-#git push to deployment server
+if [ $DP -eq "deploy" ]
+then
+
+git archive -o deploy.zip HEAD
+
+curl --user Gittu:$GITTU_VAR -F token=$GITTU_TOKEN -F "FileUpload=@deploy.zip" $GITTU_URL
+
+fi
