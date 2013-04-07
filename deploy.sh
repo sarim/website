@@ -4,10 +4,10 @@ echo "All is well for now, will write deploy code later"
 
 #check if commit has [dp] tag
 
-DP=`git log -1 --format="%s" | grep "\[dp\]" && echo "deploy"`
+git log -1 --format="%s" | grep "\[dp\]"
+RETVAL=$?
 
-
-if [ $DP ]
+if [ $RETVAL -eq 0 ]
 then
 
 git archive -o deploy.zip HEAD
