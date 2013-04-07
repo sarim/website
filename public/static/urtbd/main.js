@@ -1,3 +1,5 @@
+/*
+
 $(document).ready(function () {
 
     // handle navbar link clicks
@@ -12,3 +14,5 @@ $(document).ready(function () {
     $("div.sections").hide()
     $("div#intro").show();
 });
+
+    */
