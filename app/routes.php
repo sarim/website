@@ -11,7 +11,22 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home');
+Route::any('/', function () {
+    return View::make('home');
+});
+
+Route::any('/clan_values', function () {
+    return View::make('clan_values');
+});
+
+Route::any('/clan_structure', function () {
+    return View::make('clan_structure');
+});
+
+Route::any('/members_teams', function () {
+    return View::make('members_teams');
+});
+
+Route::any('/recruitment', function () {
+    return View::make('recruitment');
 });
