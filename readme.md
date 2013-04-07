@@ -1,5 +1,6 @@
 ## Urban Terrorists Bangladesh Website
 
+[![Build Status](https://travis-ci.org/urtbd/website.png?branch=master)](https://travis-ci.org/urtbd/website)
 
 #### Installation
 
