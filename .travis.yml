@@ -1,6 +1,4 @@
 env:
-  - secure: "G/RACRvkGIk5lbt2p24hvEi79AFgXXvcujxKz+dWD5it18CNVqFa7RnNviZF\niY8kmaVqsZkXi/m210giURuM3CzbcXzT9qOwJwQBi75pbFzieN4hMJKyCuN+\naAYTP8VjOEa58W1/4aAJf0eAqN05A/yvRnkaFfvR+/Tvw5TyHbU="
-  - secure: "OAyVVXZZwLLXa6wo3CSR3hdyZyML5/3oz7FGGQ1+C4O4INw3oeXksEXvZkAX\nP0I+XEJOZ4uf42ozHO1XoCakmYwByQPpOUsk1TaK2KkKmcvl85/zqtggAl9/\nxrQzaGtOc1e66oxYJDoHucs9rRDbBw2C12xsIdHvgsgbEAVh/aQ="
-  - secure: "Aw/U6+kRoq1uOSY62+ZJUvyv517Wb180RvcpJ/8CUBLy4wc1Yv/3jhE36SVB\nZ5Ru+eM2OUt52LMe8yRi3NoTbgYoy/N7D+Ce9UvkaDiGnbxxA6+IpeDxI6ar\nYSPsoiI67zPvvu0CwyPKM2YokX4UyNPUcL1+W8KgWvuqzLqbHek="
+  - secure: "IR5WeCvorDp1JweLSAtAKiW9YQ3I4PeWSi543DMOM1E5GZ1Z3TnmNxawxhSS\nGLt3hP/O4LDaSaGi14Ercb8Km/6qB6uVJ++ULVayVRLBK+N0XbKi3gIsViYv\nX1537Ia6PJjCkijVr7c8UFKj0+vfV4UPw64hEw8efAXjHrqlBYI="
 
 script: "./deploy.sh"
