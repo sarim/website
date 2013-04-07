@@ -34,6 +34,25 @@ Sample for apache:
     </VirtualHost>
     
 
+Sample for nginx:
+
+    server {
+        server_name urtbd.dev;
+        root /Users/sarim/Sites/website/public;
+
+        location / {
+            index index.php index.html index.htm;
+            try_files $uri $uri/ /index.php;
+        }
+
+        location ~ \.php$ {
+            fastcgi_pass   unix:/var/run/fpm.sock;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            include        fastcgi_params;
+        }
+    }
+
 And add this to your hosts file: 
 
     127.0.0.1   urtbd.dev
