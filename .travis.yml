@@ -1,0 +1,4 @@
+env:
+  - secure: "DzVPgh6pxktfPB9IiftelN5tztpQKzFNBYd45Ke2X08gi3pjJ80Cz+Z++k0K\nhFEMzZzEG1MlH326yYoeMkYycFJOL9iJY1lnBAG84VVVa2fZkPUW5qjzRBf/\nUssCSv3vzGVzpd/I+LpzyGTckYY6KwMNAHTXluWO8V7A1Vn+WlQ="
+
+script: "./deploy.sh"
